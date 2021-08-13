@@ -11,6 +11,6 @@ set /p location=File path:
 
 echo.
 
-certUtil -hashfile "%location%" SHA256
+certUtil -hashfile %location% SHA256
 
 pause

@@ -11,6 +11,6 @@ set /p location=File path:
 
 echo.
 
-certUtil -hashfile "%location%" MD5
+certUtil -hashfile %location% MD5
 
 pause
